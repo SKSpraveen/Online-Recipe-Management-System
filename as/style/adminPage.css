@@ -1,0 +1,38 @@
+h1{
+	font-size:40px;
+	color:black;
+	 text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px red;
+}
+h2{
+	font-size:36px;
+	color:black;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px red;
+	margin:auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  position: fixed;
+  height: 98%;
+  overflow: auto;
+  border-radius:20px;
+}
+
+
+
+li a.active {
+  background-color:#000000ea;
+  color: black;
+  font-size:20px;
+}
+
+li a:hover:not(.active) {
+  background-color:black;
+  color: white;
+}
+
+button:hover{
+	opacity:0.3;
+}

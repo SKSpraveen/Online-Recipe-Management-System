@@ -1,0 +1,86 @@
+<html>
+
+<head>
+<title>Recipe System</title>
+
+<link rel="stylesheet" type="text/css" href="style/style.css">
+
+<style>
+div {
+  background-color: lightgrey;
+  width: 500px;
+  height:550px;
+  border: 10px  double black;
+  border-radius:40px;
+  padding: 50px;
+  margin: 20px auto 0;
+}
+</style>
+</head>
+
+<body>
+
+<image  class="logo" src="images/logo.png" width="8%">
+<h1 class="text1">BakingDaddy<p class='text2'>.Recipe Provider.</p></h1>
+
+
+<div>
+<center>
+    <h1>Registration Form</h1>
+</center>
+<form action="submitSignUp.php" method="POST">
+    
+    User Name:<br/>
+    <input type="text" name="firstname" placeholder="User Name" required><br/><br/>
+        
+
+    Mobile Number:<br/>
+    <input type="phone" name="mobile" placeholder="0777777777" pattern="[0-9]{10}" required><br/><br/>
+        
+    e-mail:<br/>
+    <input type="email" name="email" placeholder="abc@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" required><br/><br/>
+        
+    Birthday:<br/>
+    <input type="date" name="day" required><br/><br/>
+     
+	User Type: <select size='1'>
+	<option>User</option>
+	<option>Chef</option>
+	</select>
+	<br><br>
+    Password:<br/>
+    <input type="password" name="Password" placeholder="Enter your Password"  required><br/><br/>
+        
+  
+    <br>
+    <input type="checkbox" class="inputStyle" id="checkBox" onclick="enableButton()">Accept Privacy Policy and Terms<br/><br/>
+	<center><br><br>
+    <input type="submit" value="Submit">
+	</center>	
+	</form>	
+   </div>
+   
+    
+
+
+<br><br><br><br>
+
+<footer>
+<image style="float:left" src="images/logo.png" width="7%">
+<h5 style="color:white">BakingDaddy <br>16/9 Meta Road,Colombo06</h5>
+
+
+<ul class="footerIcons">
+	<li><a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></li></a>
+	<li><a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></li></a>
+	<li><a href="https://twitter.com/"><ion-icon name="logo-twitter"></ion-icon></li></a>
+</ul>
+
+<ul class="footerMenu">
+	<li class="footerNav"><a href="Contact us">Contact us</a></li>
+	<li class="footerNav"><a href="terms & conditions">Terms & conditions</a></li>
+	<li class="footerNav"><a href="feedback">FAQs</a></li>
+</ul>
+</footer>
+</body>
+</html>
