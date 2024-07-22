@@ -9,7 +9,8 @@ We have developed a website specifically designed for individuals who are seekin
 
 Our website is designed to be easily navigable, even for people with basic IT knowledge. You can access and interact with our system using various devices such as smartphones and laptops. Our primary goal is to assist you in creating your own healthy and delicious meals,regardless of your busy schedule.  
 
-## Libraries and Frameworks:–
+## Libraries and Frameworks:–  
+   
 html  
 css  
 javaScript  
@@ -17,15 +18,15 @@ php
 
 ## Installation and Setup  
 
-*Download this folder  
+* Download this folder  
   
-*Use following link to download XAMPP  (https://www.apachefriends.org/download.htm)  
+* Use following link to download XAMPP  (https://www.apachefriends.org/download.htm)  
 
-*Go to the browser and type, “localhost/phpmyadmin” Create database here  
+* Go to the browser and type, “localhost/phpmyadmin” Create database here  
 
-*Rename your password to this project password [ ex:- $password = "sasindu"; ] <-- #rename this  
+* Rename your password to this project password [ ex:- $password = "sasindu"; ] <-- # rename this  
   
-*There is a folder named “htdocs” inside XAMPP folder. If you want to run a file using XAMPP, then you should move the specific file into the “htdocs” folder.   
+* There is a folder named “htdocs” inside XAMPP folder. If you want to run a file using XAMPP, then you should move the specific file into the “htdocs” folder.   
 
   
   
